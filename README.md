@@ -3,7 +3,7 @@
 
 NewsHub is a responsive frontend news application that fetches real-time news using the NewsAPI and displays it in a clean, uniform, card-based UI. The app allows users to browse news by category, search for topics, and read full articles on external sources.
 
-🚀 Features
+**🚀 Features**
 
 🔍 Search news by keyword
 
@@ -21,7 +21,7 @@ NewsHub is a responsive frontend news application that fetches real-time news us
 
 🛡️ Fallback handling for missing images or removed articles
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 HTML5 – Structure
 
@@ -33,15 +33,9 @@ NewsAPI – News data source
 
 Font Awesome – Icons
 
-📸 Screenshots
 
-(Add screenshots here once uploaded)
 
-/screenshots
-  ├── desktop-view.png
-  ├── mobile-view.png
-
-⚙️ How It Works
+**⚙️ How It Works**
 
 User selects a category or enters a search query
 
@@ -51,7 +45,7 @@ News articles are dynamically rendered as cards
 
 Clicking Read More opens the full article in a new tab
 
-🧪 Error Handling & Data Filtering
+**🧪 Error Handling & Data Filtering**
 
 Articles with [Removed] titles are excluded
 
@@ -59,7 +53,7 @@ Non-English titles are filtered out
 
 Placeholder images are used when article images are missing
 
-🧑‍💻 Setup & Usage
+**🧑‍💻 Setup & Usage**
 
 Clone the repository:
 
@@ -73,7 +67,7 @@ const apiKey = "YOUR_NEWS_API_KEY";
 
 Open index.html in your browser
 
-📌 Future Improvements
+**📌 Future Improvements**
 
 Pagination / infinite scroll
 
