@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!--navbar starts-->
+    <nav class="navbar">
+        <a class="navbar-brand" href="#" onclick="newsdata('top')">NewsHub</a>
+        <div class="navbar-toggler" id="toggleBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <ul class="navbar-nav" id="navLinks">
+            <li><a href="#" onclick="newsdata('india')">India</a></li>
+        <li><a class="active" href="#" onclick="newsdata('technology')">Technology</a></li>
+        <li><a href="#" onclick="newsdata('US')">US</a></li>
+        <li><a href="#" onclick="newsdata('cricket')">Cricket</a></li>
+        <li><a href="#" onclick="newsdata('mobile')">Mobiles</a></li>
+        <li><a href="#" onclick="newsdata('gaming')">Gaming</a></li>
+        </ul>
+
+        <div class="navbar-search" role="search">
+        <input type="search" placeholder="Search" aria-label="Search" id="input">
+        <button type="submit" onclick="newsdata(document.getElementById('input').value)"><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <div class="card-container" id="demo">
+
+  
+    </div>
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
